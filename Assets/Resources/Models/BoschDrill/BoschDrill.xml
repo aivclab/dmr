@@ -1,0 +1,320 @@
+
+<Scene>
+
+	<EnvironmentMap>
+		<File>Studio.hdr</File>
+		<GenerateRandomEnvMap Value="true" Width="1024" Height="512" NumberOfLights="4"></GenerateRandomEnvMap>
+	</EnvironmentMap>
+
+	<Texture>
+		<Name>battery_Diffuse</Name>
+		<Filename>battery_Diffuse.png</Filename>
+	</Texture>
+	<Texture>
+		<Name>oring_diffuse</Name>
+		<Filename>oring_diffuse.png</Filename>
+	</Texture>
+	<Texture>
+		<Name>grip_bump</Name>
+		<Filename>grip_bump.png</Filename>
+	</Texture>
+	<Texture>
+		<Name>battery_indication_diffuse</Name>
+		<Filename>battery_indication_diffuse.png</Filename>
+	</Texture>
+	<Texture>
+		<Name>front_ring_diffuse</Name>
+		<Filename>front_ring_diffuse.png</Filename>
+	</Texture>
+	<Texture>
+		<Name>silver_black_bump</Name>
+		<Filename>silver_black_bump.png</Filename>
+	</Texture>
+	<Texture>
+		<Name>telo_diffuse</Name>
+		<Filename>telo_diffuse.png</Filename>
+	</Texture>
+
+
+	<BatchRendering>
+		<CameraDistributionMode>CDM_ALL_AROUND_UPRIGHT</CameraDistributionMode>
+		<NumberOfImages>16</NumberOfImages>
+		<NumberOfRaysPrPixel>5001</NumberOfRaysPrPixel>
+		<CameraOffset Min="150.0" Max="350.0"></CameraOffset>
+		<CameraFov>50.0</CameraFov>
+		<ToneMappingWhitePointMultiplier>1.0</ToneMappingWhitePointMultiplier>
+		<RenderGroundPlane Value="true"></RenderGroundPlane>
+		<ExitOnCompletion Value="true"></ExitOnCompletion>
+		<OutputDir>BoschDrill</OutputDir>
+		<ImageSize Width="256" Height="256"></ImageSize>
+	</BatchRendering>
+
+
+
+	<Material>
+		<Name>wire_008008136</Name>
+		<Brdf>MicroFacet</Brdf>
+		<DiffuseColor B="30" G="30" R="30" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.02" />
+		<Reflectance Ref="0.03" />
+	</Material>
+	<Material>
+		<Name>wire_057008136</Name>
+		<Brdf>Plastic</Brdf>
+		<DiffuseColor B="245" G="250" R="251" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.2" />
+		<Reflectance Ref="0.3" />
+	</Material>
+	<Material>
+		<Name>wire_000000000</Name>
+		<Brdf>Plastic</Brdf>
+		<DiffuseColor B="255" G="255" R="255" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.2" />
+		<Reflectance Ref="0.3" />
+	</Material>
+	<Material>
+		<Name>wire_108008136</Name>
+		<Brdf>MicroFacet</Brdf>
+		<DiffuseColor B="60" G="80" R="40" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.02" />
+		<Reflectance Ref="0.03" />
+	</Material>
+	<Material>
+		<Name>wire_028149177</Name>
+		<Brdf>Plastic</Brdf>
+		<DiffuseColor B="12" G="5" R="215" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.02" />
+		<Reflectance Ref="0.03" />
+	</Material>
+	<Material>
+		<Name>wire_148177027</Name>
+		<Brdf>Plastic</Brdf>
+		<DiffuseColor B="12" G="5" R="115" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.02" />
+		<Reflectance Ref="0.03" />
+	</Material>
+	<Material>
+		<Name>wire_028089177</Name>
+		<Brdf>Plastic</Brdf>
+		<DiffuseColor B="12" G="5" R="155" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.02" />
+		<Reflectance Ref="0.03" />
+	</Material>
+	<Material>
+		<Name>black_back_plate</Name>
+		<Brdf>MicroFacet</Brdf>
+		<DiffuseColor B="30" G="30" R="30" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.2" />
+		<Reflectance Ref="0.93" />
+	</Material>
+	<Material>
+		<Name>silver</Name>
+		<Brdf>MicroFacet</Brdf>
+		<DiffuseColor B="255" G="255" R="255" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.92" />
+		<Reflectance Ref="0.3" />
+		<Roughness Value="0.27" />
+	</Material>
+	<Material>
+		<Name>back_rubber</Name>
+		<Brdf>MicroFacet</Brdf>
+		<DiffuseColor B="30" G="30" R="30" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.92" />
+		<Reflectance Ref="0.3" />
+		<Roughness Value="0.927" />
+	</Material>
+	<Material>
+		<Name>transparent</Name>
+		<Brdf>Refractive</Brdf>
+		<DiffuseColor B="255" G="255" R="225" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.46" />
+		<Glossiness Gloss="0.79" />
+		<Reflectance Ref="0.2" />
+	</Material>
+	<Material>
+		<Name>red_button</Name>
+		<Brdf>Plastic</Brdf>
+		<DiffuseColor B="12" G="5" R="155" />
+		<EmmisiveColorF B="1.0" G="1.0" R="1.0" />
+		<IndexOfRefraction IOR="1.0" />
+		<Glossiness Gloss="0.02" />
+		<Reflectance Ref="0.03" />
+	</Material>
+
+
+
+	<TriangleObject>
+		<Name>second_plastic_ring</Name>
+		<MeshFile>second_plastic_ring.dae</MeshFile>
+		<MaterialName>wire_008008136</MaterialName>
+		<TextureName>oring_diffuse</TextureName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>front_plastic_ring</Name>
+		<MeshFile>front_plastic_ring.dae</MeshFile>
+		<MaterialName>wire_008008136</MaterialName>
+		<TextureName>front_ring_diffuse</TextureName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>front_metal_hooks</Name>
+		<MeshFile>front_metal_hooks.dae</MeshFile>
+		<MaterialName>wire_057008136</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+
+	<TriangleObject>
+		<Name>front_metal_ring</Name>
+		<MeshFile>front_metal_ring.dae</MeshFile>
+		<MaterialName>wire_008008136</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>body</Name>
+		<MeshFile>body.dae</MeshFile>
+		<MaterialName>wire_108008136</MaterialName>
+		<TextureName>telo_diffuse</TextureName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>back_rubber</Name>
+		<MeshFile>back_rubber.dae</MeshFile>
+		<MaterialName>back_rubber</MaterialName>
+		<TextureName>grip_bump</TextureName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>battery</Name>
+		<MeshFile>battery.dae</MeshFile>
+		<MaterialName>wire_008008136</MaterialName>
+		<TextureName>battery_Diffuse</TextureName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>slide_button</Name>
+		<MeshFile>slide_button.dae</MeshFile>
+		<MaterialName>red_button</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>silver_back</Name>
+		<MeshFile>silver_back.dae</MeshFile>
+		<MaterialName>silver</MaterialName>
+		<TextureName>silver_black_bump</TextureName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>main_button</Name>
+		<MeshFile>main_button.dae</MeshFile>
+		<MaterialName>red_button</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>battery_indicator_glass</Name>
+		<MeshFile>battery_indicator_glass.dae</MeshFile>
+		<MaterialName>transparent</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>indicator</Name>
+		<MeshFile>indicator.dae</MeshFile>
+		<MaterialName>transparent</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>upper_button</Name>
+		<MeshFile>upper_button.dae</MeshFile>
+		<MaterialName>red_button</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>lower_button</Name>
+		<MeshFile>lower_button.dae</MeshFile>
+		<MaterialName>red_button</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>logo</Name>
+		<MeshFile>logo.dae</MeshFile>
+		<MaterialName>wire_028089177</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>logo1</Name>
+		<MeshFile>logo1.dae</MeshFile>
+		<MaterialName>wire_028089177</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>podlozka__battery_indicator</Name>
+		<MeshFile>podlozka__battery_indicator.dae</MeshFile>
+		<MaterialName>wire_108008136</MaterialName>
+		<TextureName>battery_indication_diffuse</TextureName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>button</Name>
+		<MeshFile>button.dae</MeshFile>
+		<MaterialName>transparent</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>button01</Name>
+		<MeshFile>button01.dae</MeshFile>
+		<MaterialName>transparent</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>button02</Name>
+		<MeshFile>button02.dae</MeshFile>
+		<MaterialName>transparent</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>button3</Name>
+		<MeshFile>button3.dae</MeshFile>
+		<MaterialName>transparent</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>battery_button</Name>
+		<MeshFile>battery_button.dae</MeshFile>
+		<MaterialName>red_button</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>logo</Name>
+		<MeshFile>logo.dae</MeshFile>
+		<MaterialName>wire_028089177</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+	<TriangleObject>
+		<Name>podlozka__battery_indicator001</Name>
+		<MeshFile>podlozka__battery_indicator001.dae</MeshFile>
+		<MaterialName>black_back_plate</MaterialName>
+		<Matrix4x4 f00="1" f01="0" f02="0" f03="0" f10="0" f11="1" f12="0" f13="0" f20="0" f21="0" f22="1" f23="0" f30="0" f31="0" f32="0" f33="1" />
+	</TriangleObject>
+
+</Scene>

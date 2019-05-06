@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2018-06-25T12:59:41Z</created><keywords></keywords><modified>2018-06-25T12:59:41Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="bosch_drill_podlozka__battery_indicator001-lib" name="bosch_drill_podlozka__battery_indicator001Mesh">
+      <mesh>
+        <source id="bosch_drill_podlozka__battery_indicator001-POSITION">
+          <float_array id="bosch_drill_podlozka__battery_indicator001-POSITION-array" count="81">
+-11.118725 28.706711 2.548105
+-5.254535 29.718933 1.570871
+-11.118731 24.769653 -20.206223
+-5.440288 24.769661 -20.206228
+-0.336013 29.872505 1.409708
+-0.336013 24.769676 -20.206226
+4.582508 29.718933 1.570871
+4.768261 24.769661 -20.206228
+10.446697 28.706711 2.548105
+10.446703 24.769653 -20.206223
+-8.169743 27.026863 -9.107002
+7.497716 27.026863 -9.107000
+2.106359 27.319244 -9.393820
+-2.778386 27.319244 -9.393822
+-8.107824 29.284065 1.992224
+-8.231662 24.769661 -20.206226
+-11.118728 26.738182 -8.829060
+-2.716468 29.868813 1.418585
+-2.840303 24.769669 -20.206228
+2.044442 29.868813 1.418585
+2.168277 24.769669 -20.206228
+10.446700 26.738182 -8.829060
+7.559635 24.769661 -20.206226
+7.435797 29.284065 1.992224
+4.675385 27.244301 -9.317677
+-0.336013 27.321091 -9.398260
+-5.347411 27.244301 -9.317678
+</float_array>
+          <technique_common>
+            <accessor source="#bosch_drill_podlozka__battery_indicator001-POSITION-array" count="27" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bosch_drill_podlozka__battery_indicator001-Normal0">
+          <float_array id="bosch_drill_podlozka__battery_indicator001-Normal0-array" count="288">
+-0.045705 0.976663 -0.209859
+-0.045705 0.976663 -0.209859
+-0.045705 0.976663 -0.209859
+-0.045705 0.976663 -0.209859
+-0.045705 0.976663 -0.209859
+-0.045705 0.976663 -0.209859
+-0.102700 0.975087 -0.196615
+-0.000003 0.985359 -0.170491
+-0.103999 0.978017 -0.180740
+-0.000003 0.985359 -0.170491
+-0.102700 0.975087 -0.196615
+-0.009146 0.982299 -0.187098
+-0.193600 0.959894 -0.202787
+-0.103999 0.978017 -0.180740
+-0.200700 0.961186 -0.189317
+-0.103999 0.978017 -0.180740
+-0.193600 0.959894 -0.202787
+-0.102700 0.975087 -0.196615
+-0.124617 0.967010 -0.222178
+-0.102700 0.975087 -0.196615
+-0.193600 0.959894 -0.202787
+-0.102700 0.975087 -0.196615
+-0.124617 0.967010 -0.222178
+-0.065109 0.973809 -0.217848
+0.188832 0.964919 -0.182412
+0.100815 0.975339 -0.196344
+0.119065 0.970521 -0.209553
+0.119065 0.970521 -0.209553
+0.100815 0.975339 -0.196344
+0.060645 0.974142 -0.217645
+0.215258 0.962260 -0.166495
+0.121723 0.975826 -0.181512
+0.188832 0.964919 -0.182412
+0.188832 0.964919 -0.182412
+0.121723 0.975826 -0.181512
+0.100815 0.975339 -0.196344
+0.121723 0.975826 -0.181512
+0.018249 0.980714 -0.194596
+0.100815 0.975339 -0.196344
+0.100815 0.975339 -0.196344
+0.018249 0.980714 -0.194596
+0.007114 0.977970 -0.208626
+0.100815 0.975339 -0.196344
+0.007114 0.977970 -0.208626
+0.060645 0.974142 -0.217645
+0.060645 0.974142 -0.217645
+0.007114 0.977970 -0.208626
+0.002530 0.974366 -0.224953
+0.034391 0.973593 -0.225686
+-0.000081 0.973275 -0.229644
+-0.000084 0.973275 -0.229641
+-0.000081 0.973275 -0.229644
+0.034391 0.973593 -0.225686
+0.016881 0.973582 -0.227714
+0.119065 0.970521 -0.209553
+0.060645 0.974142 -0.217645
+0.034391 0.973593 -0.225686
+0.034391 0.973593 -0.225686
+0.060645 0.974142 -0.217645
+0.016881 0.973582 -0.227714
+0.060645 0.974142 -0.217645
+0.002530 0.974366 -0.224953
+0.016881 0.973582 -0.227714
+0.016881 0.973582 -0.227714
+0.002530 0.974366 -0.224953
+0.000082 0.973282 -0.229612
+0.016881 0.973582 -0.227714
+-0.000079 0.973274 -0.229647
+-0.000081 0.973275 -0.229644
+-0.000079 0.973274 -0.229647
+0.016881 0.973582 -0.227714
+0.000082 0.973282 -0.229612
+-0.037045 0.972660 -0.229258
+-0.065109 0.973809 -0.217848
+-0.124617 0.967010 -0.222178
+-0.065109 0.973809 -0.217848
+-0.037045 0.972660 -0.229258
+-0.019362 0.973533 -0.227724
+-0.000081 0.973275 -0.229644
+-0.037045 0.972660 -0.229258
+-0.000084 0.973275 -0.229641
+-0.037045 0.972660 -0.229258
+-0.000081 0.973275 -0.229644
+-0.019362 0.973533 -0.227724
+-0.000081 0.973275 -0.229644
+-0.000079 0.973274 -0.229647
+-0.019362 0.973533 -0.227724
+-0.019362 0.973533 -0.227724
+-0.000079 0.973274 -0.229647
+-0.002539 0.974100 -0.226105
+-0.019362 0.973533 -0.227724
+-0.007142 0.977225 -0.212084
+-0.065109 0.973809 -0.217848
+-0.007142 0.977225 -0.212084
+-0.019362 0.973533 -0.227724
+-0.002539 0.974100 -0.226105
+</float_array>
+          <technique_common>
+            <accessor source="#bosch_drill_podlozka__battery_indicator001-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bosch_drill_podlozka__battery_indicator001-UV0">
+          <float_array id="bosch_drill_podlozka__battery_indicator001-UV0-array" count="54">
+0.533573 0.168274
+0.623219 0.168527
+0.621482 0.532622
+0.529905 0.526730
+0.715927 0.168790
+0.717414 0.540224
+0.718902 0.911658
+0.619744 0.896717
+0.526237 0.885185
+0.208675 0.884341
+0.115076 0.895299
+0.115521 0.531483
+0.207144 0.526034
+0.015799 0.909604
+0.019527 0.538604
+0.023256 0.167603
+0.115966 0.167667
+0.205613 0.167726
+0.367475 0.879716
+0.290916 0.880077
+0.290025 0.523926
+0.368534 0.523789
+0.289135 0.167774
+0.369593 0.167862
+0.444032 0.880468
+0.447042 0.524255
+0.450052 0.168041
+</float_array>
+          <technique_common>
+            <accessor source="#bosch_drill_podlozka__battery_indicator001-UV0-array" count="27" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="bosch_drill_podlozka__battery_indicator001-VERTEX">
+          <input semantic="POSITION" source="#bosch_drill_podlozka__battery_indicator001-POSITION"/>
+        </vertices>
+        <triangles count="32" material="lambert1"><input semantic="VERTEX" offset="0" source="#bosch_drill_podlozka__battery_indicator001-VERTEX"/><input semantic="NORMAL" offset="1" source="#bosch_drill_podlozka__battery_indicator001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#bosch_drill_podlozka__battery_indicator001-UV0"/><p> 26 0 3 15 1 1 10 2 2 15 3 1 26 4 3 3 5 0 10 6 2 2 7 4 16 8 5 2 9 4 10 10 2 15 11 1 14 12 7 16 13 5 0 14 6 16 15 5 14 16 7 10 17 2 1 18 8 10 19 2 14 20 7 10 21 2 1 22 8 26 23 3 23 24 10 11 25 11 6 26 9 6 27 9 11 28 11 24 29 12 8 30 13 21 31 14 23 32 10 23 33 10 21 34 14 11 35 11 21 36 14 9 37 15 11 38 11 11 39 11 9 40 15 22 41 16 11 42 11 22 43 16 24 44 12 24 45 12 22 46 16 7 47 17 19 48 19 25 49 21 4 50 18 25 51 21 19 52 19 12 53 20 6 54 9 24 55 12 19 56 19 19 57 19 24 58 12 12 59 20 24 60 12 7 61 17 12 62 20 12 63 20 7 64 17 20 65 22 12 66 20 5 67 23 25 68 21 5 69 23 12 70 20 20 71 22 17 72 24 26 73 3 1 74 8 26 75 3 17 76 24 13 77 25 25 78 21 17 79 24 4 80 18 17 81 24 25 82 21 13 83 25 25 84 21 5 85 23 13 86 25 13 87 25 5 88 23 18 89 26 13 90 25 3 91 0 26 92 3 3 93 0 13 94 25 18 95 26</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="podlozka__battery_indicator001" name="podlozka__battery_indicator001">
+      <node name="bosch_drill_podlozka__battery_indicator001" id="bosch_drill_podlozka__battery_indicator001" sid="bosch_drill_podlozka__battery_indicator001"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#bosch_drill_podlozka__battery_indicator001-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#podlozka__battery_indicator001"></instance_visual_scene>
+  </scene>
+</COLLADA>

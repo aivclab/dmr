@@ -2588,7 +2588,7 @@ PrefabInstance:
     - target: {fileID: 224267871597078786, guid: 2e92782f81c5740819ca66bda35481ce,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 141.50008
+      value: 141.49901
       objectReference: {fileID: 0}
     - target: {fileID: 224267871597078786, guid: 2e92782f81c5740819ca66bda35481ce,
         type: 3}
@@ -3453,7 +3453,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh161970
+  m_Name: pb_Mesh18744
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3913,6 +3913,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 393227927}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: c8d99ff93dabad87b81d24959270209e,
+        type: 3}
+      propertyPath: m_Name
+      value: CoffeeMug
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c8d99ff93dabad87b81d24959270209e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c8d99ff93dabad87b81d24959270209e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3973,11 +3983,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7ef115fa72e559cffb28590499f63dc1, type: 2}
-    - target: {fileID: -927199367670048503, guid: c8d99ff93dabad87b81d24959270209e,
-        type: 3}
-      propertyPath: m_Name
-      value: CoffeeMug
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8d99ff93dabad87b81d24959270209e, type: 3}
 --- !u!4 &1870210798 stripped
