@@ -222,6 +222,7 @@
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\BoundingBox\TwoDimensionalScreenSpaceSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\CameraSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\FloatArrayCameraSensor.cs" />
+    <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\NativeColorArrayCameraSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\Segmentation\SegmentationCameraSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\Segmentation\SegmentationSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\StringAugmentedCameraSensor.cs" />
@@ -301,6 +302,7 @@
     <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\CameraFitter.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\CameraObservationTextureController.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\ConfigurableSampleToggleList.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Experimental\Camera360\CreateStereoCubemaps.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Experimental\DisparityCameraBehaviour.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Experimental\MultiPassCamera.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Experimental\UberCamera.cs" />
@@ -321,6 +323,7 @@
     <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Synthesis\SynthesisUtilities.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Noise\Perlin.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Noise\ProjectileSpammer.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\Noise\RandomWalk.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Noise\SelfDestruct.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Plotting\DrawSpaces.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Plotting\Meshes.cs" />
