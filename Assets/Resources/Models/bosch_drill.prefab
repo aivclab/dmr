@@ -1,0 +1,3122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &79769435312226500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4458517176884363428}
+  - component: {fileID: 9071412606953542640}
+  - component: {fileID: 1160629710754443035}
+  - component: {fileID: 8918355114488577269}
+  m_Layer: 9
+  m_Name: bosch_drill_podlozka__battery_indicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4458517176884363428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79769435312226500}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &9071412606953542640
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79769435312226500}
+  m_Mesh: {fileID: 3052332189451007119, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &1160629710754443035
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79769435312226500}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79769435312226500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &341687041859038843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4772160652465688370}
+  - component: {fileID: 2077744164887700244}
+  - component: {fileID: 7695793061989094249}
+  - component: {fileID: 8918355114488577255}
+  m_Layer: 9
+  m_Name: bosch_drill_body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4772160652465688370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341687041859038843}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2077744164887700244
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341687041859038843}
+  m_Mesh: {fileID: -8493502019516599797, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &7695793061989094249
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341687041859038843}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 25132a766d1e6bbeb85b840957c27b8c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341687041859038843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &444459965739808447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8018629654213277348}
+  m_Layer: 9
+  m_Name: bosch_drill_back_rubber_lightMap_Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8018629654213277348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444459965739808447}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children:
+  - {fileID: 7326961661332318517}
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &641113890602509597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4521306674303637262}
+  - component: {fileID: 8918355115494407066}
+  m_Layer: 9
+  m_Name: bosch_drill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4521306674303637262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641113890602509597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1, y: -0.1, z: -0.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8018629654213277348}
+  - {fileID: 6593620241382234325}
+  - {fileID: 3006310078450289864}
+  - {fileID: 7091015350184160419}
+  - {fileID: 4772160652465688370}
+  - {fileID: 2937359174767264899}
+  - {fileID: 2330787150621326577}
+  - {fileID: 6486097716366855663}
+  - {fileID: 3400833039106586250}
+  - {fileID: 7498250501957256990}
+  - {fileID: 1678266444857972383}
+  - {fileID: 3291123971817480249}
+  - {fileID: 366049087170049712}
+  - {fileID: 3701142022475499391}
+  - {fileID: 866433093647744935}
+  - {fileID: 1553332059819009557}
+  - {fileID: 1302470701142813750}
+  - {fileID: 4459947870102397010}
+  - {fileID: 4458517176884363428}
+  - {fileID: 8037493574205936161}
+  - {fileID: 908930204654070888}
+  - {fileID: 2926976525041389516}
+  - {fileID: 1792457244970540262}
+  - {fileID: 7871545824707771107}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8918355115494407066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641113890602509597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489900964b0743c68d066a11c76b9faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _euler_rotation: {x: -0, y: -0, z: -0, w: 1}
+  _use_environments_space: 0
+  _euler_space:
+    _Min_Values: {x: 0, y: 0, z: 0}
+    _Max_Values: {x: 360, y: 360, z: 360}
+    _decimal_granularity: 2
+    normalised: 0
+--- !u!1 &793330985587530144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5344408642962973757}
+  - component: {fileID: 1602888345132387948}
+  - component: {fileID: 3549172460034331675}
+  - component: {fileID: 8918355114488577271}
+  m_Layer: 9
+  m_Name: bosch_drill_second_plastic_ring_lambert1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5344408642962973757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793330985587530144}
+  m_LocalRotation: {x: 1.776355e-15, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 908930204654070888}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1602888345132387948
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793330985587530144}
+  m_Mesh: {fileID: 5107445933166624051, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &3549172460034331675
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793330985587530144}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4cb8629b516ce62a897672e76392b020, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793330985587530144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &1468337207257488970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 908930204654070888}
+  m_Layer: 9
+  m_Name: bosch_drill_second_plastic_ring_lightMap_Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &908930204654070888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468337207257488970}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children:
+  - {fileID: 5344408642962973757}
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1473124362554319250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7326961661332318517}
+  - component: {fileID: 9188622024953342218}
+  - component: {fileID: 852937144990236214}
+  - component: {fileID: 8918355114488577243}
+  m_Layer: 9
+  m_Name: bosch_drill_back_rubber_lambert1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7326961661332318517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473124362554319250}
+  m_LocalRotation: {x: 1.776355e-15, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8018629654213277348}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &9188622024953342218
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473124362554319250}
+  m_Mesh: {fileID: -2094583268360219800, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &852937144990236214
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473124362554319250}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4cb8629b516ce62a897672e76392b020, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473124362554319250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &1748567384160956456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2330787150621326577}
+  - component: {fileID: 2052228829048086253}
+  - component: {fileID: 3916462688114654969}
+  - component: {fileID: 8918355114488577249}
+  m_Layer: 9
+  m_Name: bosch_drill_button01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2330787150621326577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748567384160956456}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2052228829048086253
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748567384160956456}
+  m_Mesh: {fileID: 5776824962016657743, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &3916462688114654969
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748567384160956456}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748567384160956456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &1819860115562161870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3701142022475499391}
+  - component: {fileID: 3148737328290442523}
+  - component: {fileID: 2161285006620919416}
+  - component: {fileID: 8918355114488577256}
+  m_Layer: 9
+  m_Name: bosch_drill_indicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3701142022475499391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819860115562161870}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3148737328290442523
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819860115562161870}
+  m_Mesh: {fileID: -2212119801020887697, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &2161285006620919416
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819860115562161870}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819860115562161870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &2760279900989034617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 366049087170049712}
+  - component: {fileID: 5679108640505871899}
+  - component: {fileID: 1132493617454424561}
+  - component: {fileID: 8918355114488577263}
+  m_Layer: 9
+  m_Name: bosch_drill_front_plastic_ring
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &366049087170049712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2760279900989034617}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5679108640505871899
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2760279900989034617}
+  m_Mesh: {fileID: 3770371903581993677, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &1132493617454424561
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2760279900989034617}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4cb8629b516ce62a897672e76392b020, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2760279900989034617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &2949697881034310993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3400833039106586250}
+  - component: {fileID: 3093839254372873156}
+  - component: {fileID: 4585460530930263908}
+  - component: {fileID: 8918355114488577251}
+  m_Layer: 9
+  m_Name: bosch_drill_button3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3400833039106586250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2949697881034310993}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3093839254372873156
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2949697881034310993}
+  m_Mesh: {fileID: 1854429775773618580, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &4585460530930263908
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2949697881034310993}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2949697881034310993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &3807468759399046888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678266444857972383}
+  - component: {fileID: 9172271825316999907}
+  - component: {fileID: 4889292841132677604}
+  - component: {fileID: 8918355114488577261}
+  m_Layer: 9
+  m_Name: bosch_drill_front_metal_hooks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1678266444857972383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3807468759399046888}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &9172271825316999907
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3807468759399046888}
+  m_Mesh: {fileID: -6429986750091770290, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &4889292841132677604
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3807468759399046888}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e3dd8df9c0816ff9891f4ece06bd7e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3807468759399046888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &4163522209273858848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8037493574205936161}
+  - component: {fileID: 3356532596945679175}
+  - component: {fileID: 209645035217448914}
+  - component: {fileID: 8918355114488577270}
+  m_Layer: 9
+  m_Name: bosch_drill_podlozka__battery_indicator001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8037493574205936161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4163522209273858848}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3356532596945679175
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4163522209273858848}
+  m_Mesh: {fileID: 3289345981770804107, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &209645035217448914
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4163522209273858848}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4163522209273858848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &4535014381523865219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1553332059819009557}
+  - component: {fileID: 464525827466824059}
+  - component: {fileID: 5175433668081994945}
+  - component: {fileID: 8918355114488577258}
+  m_Layer: 9
+  m_Name: bosch_drill_logo1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1553332059819009557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535014381523865219}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &464525827466824059
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535014381523865219}
+  m_Mesh: {fileID: -8487965615821704882, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &5175433668081994945
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535014381523865219}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535014381523865219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &5071622801080600904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3006310078450289864}
+  - component: {fileID: 1635082005193124566}
+  - component: {fileID: 5208656716409267302}
+  - component: {fileID: 8918355114488577253}
+  m_Layer: 9
+  m_Name: bosch_drill_battery_button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3006310078450289864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5071622801080600904}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1635082005193124566
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5071622801080600904}
+  m_Mesh: {fileID: -648252975603501274, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &5208656716409267302
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5071622801080600904}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5071622801080600904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &6116509907438561400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1792457244970540262}
+  - component: {fileID: 8912130753632660446}
+  - component: {fileID: 7973385300681284024}
+  - component: {fileID: 8918355114488577265}
+  m_Layer: 9
+  m_Name: bosch_drill_slide_button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1792457244970540262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116509907438561400}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8912130753632660446
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116509907438561400}
+  m_Mesh: {fileID: 6296845160654631303, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &7973385300681284024
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116509907438561400}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116509907438561400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &6165507278000967461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6486097716366855663}
+  - component: {fileID: 7148840110135720601}
+  - component: {fileID: 6204544533038336545}
+  - component: {fileID: 8918355114488577250}
+  m_Layer: 9
+  m_Name: bosch_drill_button02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6486097716366855663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6165507278000967461}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7148840110135720601
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6165507278000967461}
+  m_Mesh: {fileID: 1994503835090840897, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &6204544533038336545
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6165507278000967461}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6165507278000967461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &7415907219966689118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7091015350184160419}
+  - component: {fileID: 2812694913359419624}
+  - component: {fileID: 2451963474465106363}
+  - component: {fileID: 8918355114488577254}
+  m_Layer: 9
+  m_Name: bosch_drill_battery_indicator_glass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7091015350184160419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415907219966689118}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2812694913359419624
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415907219966689118}
+  m_Mesh: {fileID: -5443057233658046177, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &2451963474465106363
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415907219966689118}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e3dd8df9c0816ff9891f4ece06bd7e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415907219966689118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &7436859441556449340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 866433093647744935}
+  - component: {fileID: 6770925651939864672}
+  - component: {fileID: 1534683530668858648}
+  - component: {fileID: 8918355114488577257}
+  m_Layer: 9
+  m_Name: bosch_drill_logo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &866433093647744935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7436859441556449340}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6770925651939864672
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7436859441556449340}
+  m_Mesh: {fileID: 1923613175886839080, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &1534683530668858648
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7436859441556449340}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7436859441556449340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &7538502102411354724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7498250501957256990}
+  - component: {fileID: 3832515645546659912}
+  - component: {fileID: 888472089963111587}
+  - component: {fileID: 8918355114488577260}
+  m_Layer: 9
+  m_Name: bosch_drill_flat_head_bit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7498250501957256990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7538502102411354724}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3832515645546659912
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7538502102411354724}
+  m_Mesh: {fileID: -2964718079646192755, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &888472089963111587
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7538502102411354724}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e3dd8df9c0816ff9891f4ece06bd7e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7538502102411354724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &8037812707918879592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7871545824707771107}
+  - component: {fileID: 6997317044253723205}
+  - component: {fileID: 8422312121916698419}
+  - component: {fileID: 8918355114488577266}
+  m_Layer: 9
+  m_Name: bosch_drill_upper_button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7871545824707771107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8037812707918879592}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6997317044253723205
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8037812707918879592}
+  m_Mesh: {fileID: 6447208944310593240, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &8422312121916698419
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8037812707918879592}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8037812707918879592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &8159212934528406860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4459947870102397010}
+  - component: {fileID: 5256046040009083248}
+  - component: {fileID: 176851479470219475}
+  - component: {fileID: 8918355114488577268}
+  m_Layer: 9
+  m_Name: bosch_drill_main_button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4459947870102397010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8159212934528406860}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5256046040009083248
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8159212934528406860}
+  m_Mesh: {fileID: 8640282667873966770, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &176851479470219475
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8159212934528406860}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8159212934528406860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &8269933728693996969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6593620241382234325}
+  - component: {fileID: 2776393238966585283}
+  - component: {fileID: 8719808721402307793}
+  - component: {fileID: 8918355114488577252}
+  m_Layer: 9
+  m_Name: bosch_drill_battery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6593620241382234325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8269933728693996969}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2776393238966585283
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8269933728693996969}
+  m_Mesh: {fileID: 7215238727344590293, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &8719808721402307793
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8269933728693996969}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4cb8629b516ce62a897672e76392b020, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8269933728693996969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &8366763801307545560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2937359174767264899}
+  - component: {fileID: 3661407901586542517}
+  - component: {fileID: 583396110254357916}
+  - component: {fileID: 8918355114488577248}
+  m_Layer: 9
+  m_Name: bosch_drill_button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2937359174767264899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8366763801307545560}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3661407901586542517
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8366763801307545560}
+  m_Mesh: {fileID: 9026503747280975790, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &583396110254357916
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8366763801307545560}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8366763801307545560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &8468643119930340137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2926976525041389516}
+  - component: {fileID: 8857483686385230487}
+  - component: {fileID: 5286317806845370501}
+  - component: {fileID: 8918355114488577264}
+  m_Layer: 9
+  m_Name: bosch_drill_silver_back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2926976525041389516
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8468643119930340137}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8857483686385230487
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8468643119930340137}
+  m_Mesh: {fileID: 3314777369709975847, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &5286317806845370501
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8468643119930340137}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e3dd8df9c0816ff9891f4ece06bd7e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8468643119930340137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &8829549429291670866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3291123971817480249}
+  - component: {fileID: 2242437669569828852}
+  - component: {fileID: 6382900269839691051}
+  - component: {fileID: 8918355114488577262}
+  m_Layer: 9
+  m_Name: bosch_drill_front_metal_ring
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3291123971817480249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8829549429291670866}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2242437669569828852
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8829549429291670866}
+  m_Mesh: {fileID: 373228566854427206, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &6382900269839691051
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8829549429291670866}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e3dd8df9c0816ff9891f4ece06bd7e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8829549429291670866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
+--- !u!1 &9201746501954130160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1302470701142813750}
+  - component: {fileID: 1423812187601571674}
+  - component: {fileID: 4403599220587160804}
+  - component: {fileID: 8918355114488577259}
+  m_Layer: 9
+  m_Name: bosch_drill_lower_button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1302470701142813750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9201746501954130160}
+  m_LocalRotation: {x: 0.0000000218557, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521306674303637262}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1423812187601571674
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9201746501954130160}
+  m_Mesh: {fileID: -5175102924712379777, guid: aa7938ac6ec9976988dd7c6f00a053d3, type: 3}
+--- !u!23 &4403599220587160804
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9201746501954130160}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3a62d9efb35bfc3f9a9758922d0523f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8918355114488577259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9201746501954130160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Custom_Name: 
+  _disables_children: 0
+  _editor_reregistering: 1
+  _unregister_at_disable: 0
+  _environment: {fileID: 0}
+  _relative_to_existing_value: 0
+  _sampleRandom: 1
+  on_tick: 0
+  _tiling_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _offset_space:
+    _Min_Values: {x: 0, y: 0}
+    _Max_Values: {x: 1, y: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _color_space:
+    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
+    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _decimal_granularity: 1
+    normalised: 0
+  _smoothness_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _reflection_space:
+    _Decimal_Granularity: 1
+    _Min_Value: 0
+    _Max_Value: 1
+    normalised: 0
+  _use_shared: 0
