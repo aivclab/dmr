@@ -1,19 +1,15 @@
-import os
-import pathlib
-from itertools import count
-
-import neodroid as neo
-
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import pathlib
+import warnings
+from itertools import count
 
 import imageio
 import numpy
-import warnings
+
+
 warnings.filterwarnings("ignore", category=UserWarning)
 
-__author__ = 'cnheider'
-__doc__ = ''
 
 from tqdm import tqdm
 
@@ -22,11 +18,15 @@ tqdm.monitor_interval = 0
 from neodroid.wrappers import CameraObservationWrapper
 from contextlib import suppress
 
+__author__ = 'cnheider'
+__doc__ = ''
 
-def main(how_many = 10, gamma=2.2, path=pathlib.Path.home()/'Data'/'drill'):
+
+def generate_images(how_many=10, gamma=2.2, path=pathlib.Path.home() / 'Data' / 'drill'):
   '''
 
-  :param how_many:
+  :param path: Where to save the images
+  :param how_many: How many images
   :param gamma: Gamma < 1 ~ Dark  ;  Gamma > 1 ~ Bright
   :return:
   '''
@@ -35,9 +35,9 @@ def main(how_many = 10, gamma=2.2, path=pathlib.Path.home()/'Data'/'drill'):
     pathlib.Path.mkdir(path)
 
   with CameraObservationWrapper(connect_to_running=True) as _environment, suppress(KeyboardInterrupt):
-    for obs, frame_i in zip(tqdm(_environment, leave=False),count()):
+    for obs, frame_i in zip(tqdm(_environment, leave=False), count()):
       if how_many == frame_i:
-          break
+        break
 
       rgb = obs['RGB']
       obj = obs['ObjectSpace']
@@ -46,12 +46,13 @@ def main(how_many = 10, gamma=2.2, path=pathlib.Path.home()/'Data'/'drill'):
       name = f'stepper_{frame_i}'
 
       if gamma != 1:
-        #with suppress(UserWarning):
-          rgb = ((rgb / 255.) ** (1. / gamma))
+        # with suppress(UserWarning):
+        rgb = ((rgb / 255.) ** (1. / gamma))
 
-      imageio.imwrite(str(path / f'{name}_rgb.png'),rgb)
+      imageio.imwrite(str(path / f'{name}_rgb.png'), rgb)
       numpy.savez_compressed(str(path / f'{name}_obj.npz'), obj.astype(numpy.float16))
       numpy.savez_compressed(str(path / f'{name}_ocl.npz'), ocl.astype(numpy.float16))
 
+
 if __name__ == '__main__':
-  main()
+  generate_images()
