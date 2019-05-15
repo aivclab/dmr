@@ -85,7 +85,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79769435312226500}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -96,32 +96,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &341687041859038843
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341687041859038843}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -220,32 +220,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &444459965739808447
@@ -288,7 +288,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4521306674303637262}
-  - component: {fileID: 8918355115494407066}
   m_Layer: 9
   m_Name: bosch_drill
   m_TagString: Untagged
@@ -334,33 +333,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8918355115494407066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641113890602509597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 489900964b0743c68d066a11c76b9faf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Custom_Name: 
-  _disables_children: 0
-  _editor_reregistering: 1
-  _unregister_at_disable: 0
-  _environment: {fileID: 0}
-  _relative_to_existing_value: 0
-  _sampleRandom: 1
-  on_tick: 0
-  _euler_rotation: {x: -0, y: -0, z: -0, w: 1}
-  _use_environments_space: 0
-  _euler_space:
-    _Min_Values: {x: 0, y: 0, z: 0}
-    _Max_Values: {x: 360, y: 360, z: 360}
-    _decimal_granularity: 2
-    normalised: 0
 --- !u!1 &793330985587530144
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +418,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793330985587530144}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -457,32 +429,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &1468337207257488970
@@ -601,7 +573,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473124362554319250}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -612,32 +584,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &1748567384160956456
@@ -725,7 +697,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748567384160956456}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -736,32 +708,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &1819860115562161870
@@ -849,7 +821,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819860115562161870}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -860,32 +832,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &2760279900989034617
@@ -973,7 +945,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2760279900989034617}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -984,32 +956,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &2949697881034310993
@@ -1097,7 +1069,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2949697881034310993}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -1108,32 +1080,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &3807468759399046888
@@ -1221,7 +1193,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3807468759399046888}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -1232,32 +1204,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &4163522209273858848
@@ -1345,7 +1317,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4163522209273858848}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -1356,32 +1328,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &4535014381523865219
@@ -1469,7 +1441,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4535014381523865219}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -1480,32 +1452,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &5071622801080600904
@@ -1593,7 +1565,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5071622801080600904}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -1604,32 +1576,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &6116509907438561400
@@ -1717,7 +1689,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6116509907438561400}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -1728,32 +1700,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &6165507278000967461
@@ -1841,7 +1813,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6165507278000967461}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -1852,32 +1824,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &7415907219966689118
@@ -1965,7 +1937,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7415907219966689118}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -1976,32 +1948,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &7436859441556449340
@@ -2089,7 +2061,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7436859441556449340}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -2100,32 +2072,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &7538502102411354724
@@ -2146,7 +2118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7498250501957256990
 Transform:
   m_ObjectHideFlags: 0
@@ -2213,7 +2185,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7538502102411354724}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -2224,32 +2196,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &8037812707918879592
@@ -2337,7 +2309,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8037812707918879592}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -2348,32 +2320,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &8159212934528406860
@@ -2461,7 +2433,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8159212934528406860}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -2472,32 +2444,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &8269933728693996969
@@ -2585,7 +2557,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8269933728693996969}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -2596,32 +2568,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &8366763801307545560
@@ -2709,7 +2681,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8366763801307545560}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -2720,32 +2692,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &8468643119930340137
@@ -2833,7 +2805,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8468643119930340137}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -2844,32 +2816,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &8829549429291670866
@@ -2957,7 +2929,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8829549429291670866}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -2968,32 +2940,32 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0
 --- !u!1 &9201746501954130160
@@ -3081,7 +3053,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9201746501954130160}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 429eddc2e17c50341b357a1de655ebf6, type: 3}
   m_Name: 
@@ -3092,31 +3064,31 @@ MonoBehaviour:
   _unregister_at_disable: 0
   _environment: {fileID: 0}
   _relative_to_existing_value: 0
-  _sampleRandom: 1
+  _sampleRandom: 0
   on_tick: 0
   _tiling_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _offset_space:
-    _Min_Values: {x: 0, y: 0}
-    _Max_Values: {x: 1, y: 1}
+    _Min_Values: {x: 0.2, y: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _color_space:
-    _Min_Values: {x: 0, y: 0, z: 0, w: 0}
-    _Max_Values: {x: 1, y: 1, z: 1, w: 1}
+    _Min_Values: {x: 0.2, y: 0.2, z: 0.2, w: 0.2}
+    _Max_Values: {x: 0.8, y: 0.8, z: 0.8, w: 0.8}
     _decimal_granularity: 1
     normalised: 0
   _smoothness_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _reflection_space:
     _Decimal_Granularity: 1
-    _Min_Value: 0
-    _Max_Value: 1
+    _Min_Value: 0.2
+    _Max_Value: 0.8
     normalised: 0
   _use_shared: 0

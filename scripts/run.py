@@ -22,7 +22,7 @@ __author__ = 'cnheider'
 __doc__ = ''
 
 
-def generate_images(how_many=10, gamma=2.2, path=pathlib.Path.home() / 'Data' / 'drill'):
+def generate_images(how_many=100, gamma=2.2, path=pathlib.Path.home() / 'Data' / 'drill'):
   '''
 
   :param path: Where to save the images
@@ -32,7 +32,7 @@ def generate_images(how_many=10, gamma=2.2, path=pathlib.Path.home() / 'Data' / 
   '''
 
   if not path.exists():
-    pathlib.Path.mkdir(path)
+    pathlib.Path.mkdir(path,parents=True)
 
   with CameraObservationWrapper(connect_to_running=True) as _environment, suppress(KeyboardInterrupt):
     for obs, frame_i in zip(tqdm(_environment, leave=False), count()):
