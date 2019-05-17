@@ -12,9 +12,10 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 
 from tqdm import tqdm
+import matplotlib.pyplot as plt
 
 tqdm.monitor_interval = 0
-
+import numpy as np
 from neodroid.wrappers import CameraObservationWrapper
 from contextlib import suppress
 
@@ -22,7 +23,7 @@ __author__ = 'cnheider'
 __doc__ = ''
 
 
-def generate_images(how_many=100, gamma=2.2, path=pathlib.Path.home() / 'Data' / 'drill'):
+def generate_images(how_many=1, gamma=2.2, path=pathlib.Path.home() / 'Data' / 'drill'):
   '''
 
   :param path: Where to save the images
@@ -34,24 +35,45 @@ def generate_images(how_many=100, gamma=2.2, path=pathlib.Path.home() / 'Data' /
   if not path.exists():
     pathlib.Path.mkdir(path,parents=True)
 
+
   with CameraObservationWrapper(connect_to_running=True) as _environment, suppress(KeyboardInterrupt):
     for obs, frame_i in zip(tqdm(_environment, leave=False), count()):
       if how_many == frame_i:
         break
 
       rgb = obs['RGB']
-      obj = obs['ObjectSpace']
+      shape = 128
+      rgb = rgb.reshape((shape, shape, 4))
+
+      #rgb = (rgb.astype(np.float32) / 255.) ** (1. / 2.2)
+      pos = obs['ObjectSpace']
+      pos = pos.reshape((shape, shape, 4)).copy()
+      pos[:, :, :-1] -= 0.5
       ocl = obs['OcclusionMask']
+      ocl = ocl.reshape((shape, shape, 4))
+      #ocl = ocl[:, :, -1].astype(np.uint8) // 255
+
+      print(numpy.min(rgb),numpy.max(rgb))
+      print(numpy.max(pos))
+      print(numpy.max(ocl))
+
+      for i in range(3):
+        pos[:, :, i] -= np.min(pos[:, :, i])
+        pos[:, :, i] /= np.max(pos[:, :, i])
+
+      plt.imshow(pos[:, :, :3].astype(np.float32))
+      plt.show()
+      plt.imshow(rgb[:, :, :3].astype(np.float32))
+      plt.show()
 
       name = f'stepper_{frame_i}'
 
-      if gamma != 1:
-        # with suppress(UserWarning):
-        rgb = ((rgb / 255.) ** (1. / gamma))
 
-      imageio.imwrite(str(path / f'{name}_rgb.png'), rgb)
-      numpy.savez_compressed(str(path / f'{name}_obj.npz'), obj.astype(numpy.float16))
-      numpy.savez_compressed(str(path / f'{name}_ocl.npz'), ocl.astype(numpy.float16))
+
+      #imageio.imwrite(str(path / f'{name}_rgb.png'), rgb)
+      numpy.savez_compressed(str(path / f'{name}_rgb.npz'), rgb)
+      numpy.savez_compressed(str(path / f'{name}_obj.npz'), pos)
+      numpy.savez_compressed(str(path / f'{name}_ocl.npz'), ocl)
 
 
 if __name__ == '__main__':

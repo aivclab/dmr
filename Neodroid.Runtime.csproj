@@ -80,10 +80,10 @@
     <Compile Include="Assets\droid\Runtime\Interfaces\IDisplayer.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IEnvironment.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IEnvironmentListener.cs" />
-    <Compile Include="Assets\droid\Runtime\Interfaces\IHasArray.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IHasByteArray.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IHasDouble.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IHasEulerTransform.cs" />
+    <Compile Include="Assets\droid\Runtime\Interfaces\IHasFloatArray.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IHasFloatEnumerable.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IHasQuadruple.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IHasQuaternionTransform.cs" />
@@ -222,9 +222,10 @@
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\BoundingBox\BoundingBoxSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\BoundingBox\ScreenSpaceBoundingBoxSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\BoundingBox\TwoDimensionalScreenSpaceSensor.cs" />
+    <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\ByteArrayCameraSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\CameraSensor.cs" />
-    <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\FloatArrayCameraSensor.cs" />
-    <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\NativeColorArrayCameraSensor.cs" />
+    <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\FloatFloatArrayCameraSensor.cs" />
+    <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\NativeColorFloatArrayCameraSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\Segmentation\SegmentationCameraSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\Segmentation\SegmentationSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\StringAugmentedCameraSensor.cs" />
@@ -358,7 +359,7 @@
     <None Include="Assets\droid\Runtime\Shaders\Wireframe\WireframeTransparentCulled.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Wireframe\Wireframe.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Wireframe\WireframeTransparent.shader" />
-    <None Include="Assets\droid\Runtime\Shaders\Segmentation\AlphaMask.shader" />
+    <None Include="Assets\droid\Runtime\Shaders\Mask.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Experimental\VertexId.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Spaces\MultiChannelDepth.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Experimental\VerticalFlipper.shader" />
@@ -611,6 +612,9 @@
     <Reference Include="UnityEditor.LinuxStandalone.Extensions">
       <HintPath>/home/heider/Unity/Hub/Editor/2019.1.0f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="FlatBuffers">
+      <HintPath>/home/heider/Projects/Neodroid/Unity/dmr/Assets/droid/Libraries/Neodroid-FlatBuffers.1.0.0/lib/net45/FlatBuffers.dll</HintPath>
+    </Reference>
     <Reference Include="NetMQ">
       <HintPath>/home/heider/Projects/Neodroid/Unity/dmr/Assets/droid/Libraries/NetMQ.4.0.0.175-pre/lib/net40/NetMQ.dll</HintPath>
     </Reference>
@@ -625,9 +629,6 @@
     </Reference>
     <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
       <HintPath>/home/heider/Projects/Neodroid/Unity/dmr/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
-    </Reference>
-    <Reference Include="FlatBuffers">
-      <HintPath>/home/heider/Projects/Neodroid/Unity/dmr/Assets/droid/Libraries/Neodroid-FlatBuffers.1.0.0/lib/net45/FlatBuffers.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/home/heider/Unity/Hub/Editor/2019.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
