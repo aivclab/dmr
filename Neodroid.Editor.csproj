@@ -87,6 +87,7 @@
     <Compile Include="Assets\droid\Editor\Utilities\NoteUtilities\NoteType.cs" />
     <Compile Include="Assets\droid\Editor\Utilities\ObjectDropdown\ObjectDropdownAttribute.cs" />
     <Compile Include="Assets\droid\Editor\Utilities\ObjectDropdown\ObjectSelectorDropdown.cs" />
+    <Compile Include="Assets\droid\Editor\Utilities\RuntimeDebugDraw.cs" />
     <Compile Include="Assets\droid\Editor\Utilities\SceneDescription.cs" />
     <Compile Include="Assets\droid\Editor\Utilities\ScenePreview.cs" />
     <Compile Include="Assets\droid\Editor\Utilities\SceneReference.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\droid\Editor\Utilities\ScriptExecutionOrderAttribute.cs" />
     <Compile Include="Assets\droid\Editor\Utilities\SearchableEnum\SearchableEnumDrawer.cs" />
     <Compile Include="Assets\droid\Editor\Utilities\SearchableEnum\SearchablePopup.cs" />
+    <Compile Include="Assets\droid\Editor\Utilities\StatusDisplayer\AutoSetupStatusDisplayer.cs" />
     <Compile Include="Assets\droid\Editor\Utilities\UnityDebug\FindMissingScripts.cs" />
     <Compile Include="Assets\droid\Editor\Utilities\UnityDebug\MissingReferencesFinder.cs" />
     <Compile Include="Assets\droid\Editor\Windows\CameraSynchronisationWindow.cs" />

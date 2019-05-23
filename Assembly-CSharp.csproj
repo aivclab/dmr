@@ -67,6 +67,17 @@
     <Compile Include="Assets\droid\Samples\MultiArmedBandit\RestlessMultiArmedBanditActuator.cs" />
     <Compile Include="Assets\droid\Samples\MultiArmedBandit\TextBarPlotDisplayer.cs" />
     <Compile Include="Assets\droid\Tests\Runtime\SimulatorTests.cs" />
+    <Compile Include="Assets\RandomFromDistributions\Examples\DistributionsExamples\CurveTestScript.cs" />
+    <Compile Include="Assets\RandomFromDistributions\Examples\DistributionsExamples\CustomPDFTestScript.cs" />
+    <Compile Include="Assets\RandomFromDistributions\Examples\DistributionsExamples\DistributionTestScript.cs" />
+    <Compile Include="Assets\RandomFromDistributions\Examples\DistributionsExamples\ExponentialTestScript.cs" />
+    <Compile Include="Assets\RandomFromDistributions\Examples\DistributionsExamples\LinearTestScript.cs" />
+    <Compile Include="Assets\RandomFromDistributions\Examples\DistributionsExamples\NormalDistributionTestScript.cs" />
+    <Compile Include="Assets\RandomFromDistributions\Examples\GenerateObjects Example\GenerateObjects.cs" />
+    <Compile Include="Assets\RandomFromDistributions\Examples\Monster Spawner Example\Monster.cs" />
+    <Compile Include="Assets\RandomFromDistributions\Examples\Monster Spawner Example\MonsterSpawner.cs" />
+    <None Include="Assets\RandomFromDistributions\Examples\DistributionsExamples\DistributionsExamples README.txt" />
+    <None Include="Assets\RandomFromDistributions\Readme.txt" />
     <None Include="Assets\droid\Libraries\NetMQ.4.0.0.175-pre\lib\net40\NetMQ.xml" />
     <None Include="Assets\droid\Libraries\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.xml" />
     <None Include="Assets\Resources\Models\BoschDrill\BoschDrill.xml" />
