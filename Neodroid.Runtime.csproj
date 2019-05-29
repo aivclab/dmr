@@ -28,7 +28,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_1_0;UNITY_2019_1;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2019_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_LINUX;PLATFORM_STANDALONE;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;PLAYERPREFS_SERIALIZE_TO_XML;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_SCRIPTING_GC_WBARRIERS;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;NEODROID;NEODROID_EXISTS;NEODROID_IMPORTED_ASSET;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_1_0;UNITY_2019_1;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2019_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_LINUX;PLATFORM_STANDALONE;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;PLAYERPREFS_SERIALIZE_TO_XML;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_SCRIPTING_GC_WBARRIERS;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;NEODROID;NEODROID_EXISTS;NEODROID_IMPORTED_ASSET;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -66,12 +66,14 @@
     <Compile Include="Assets\droid\Runtime\EcsPrototyping\HelloRotationSpeedComponent.cs" />
     <Compile Include="Assets\droid\Runtime\EcsPrototyping\HelloRotationSpeedSystem.cs" />
     <Compile Include="Assets\droid\Runtime\EcsPrototyping\Systems\CamersSensorSystem.cs" />
+    <Compile Include="Assets\droid\Runtime\Environments\ActorisedPrototypingEnvironment.cs" />
     <Compile Include="Assets\droid\Runtime\Environments\Experimental\ImitationEnvironment.cs" />
     <Compile Include="Assets\droid\Runtime\Environments\NeodroidEnvironment.cs" />
     <Compile Include="Assets\droid\Runtime\Environments\PrototypingEnvironment.cs" />
     <Compile Include="Assets\droid\Runtime\Environments\RandomisedEnvironment.cs" />
     <Compile Include="Assets\droid\Runtime\Environments\ScriptedEnviroment.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IActor.cs" />
+    <Compile Include="Assets\droid\Runtime\Interfaces\IActorisedPrototypingEnvironment.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IActuator.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\ICategoryProvider.cs" />
     <Compile Include="Assets\droid\Runtime\Interfaces\IColorProvider.cs" />
@@ -137,6 +139,7 @@
     <Compile Include="Assets\droid\Runtime\Prototyping\Actors\Actor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Actors\ActorComponentMenuPath.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Actors\KillableActor.cs" />
+    <Compile Include="Assets\droid\Runtime\Prototyping\Actors\VirtualActor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Actuators\Actuator.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Actuators\ActuatorComponentMenuPath.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Actuators\BanditArmActuator.cs" />
@@ -209,11 +212,6 @@
     <Compile Include="Assets\droid\Runtime\Prototyping\Evaluation\RestInArea.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Evaluation\SeekAndAvoidEvaluation.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Evaluation\Tasks\TaskSequence.cs" />
-    <Compile Include="Assets\droid\Runtime\Prototyping\Evaluation\Terms\CollidersPunishmentTerm.cs" />
-    <Compile Include="Assets\droid\Runtime\Prototyping\Evaluation\Terms\CollisionsPunishmentTerm.cs" />
-    <Compile Include="Assets\droid\Runtime\Prototyping\Evaluation\Terms\RushTerm.cs" />
-    <Compile Include="Assets\droid\Runtime\Prototyping\Evaluation\Terms\Term.cs" />
-    <Compile Include="Assets\droid\Runtime\Prototyping\Evaluation\Terms\TermComponentMenuPath.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Evaluation\VelocityEvaluation.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Internals\ActionCounter.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Internals\EnvironmentListener.cs" />
@@ -226,7 +224,7 @@
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\BoundingBox\TwoDimensionalScreenSpaceSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\ByteArrayCameraSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\CameraSensor.cs" />
-    <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\FloatFloatArrayCameraSensor.cs" />
+    <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\FloatArrayCameraSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\NativeColorFloatArrayCameraSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\Segmentation\SegmentationCameraSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Prototyping\Sensors\Camera\Segmentation\SegmentationSensor.cs" />
@@ -259,14 +257,6 @@
     <Compile Include="Assets\droid\Runtime\Shaders\Experimental\Skybox Shaders\Editor\GradientSkyboxInspector.cs" />
     <Compile Include="Assets\droid\Runtime\Shaders\Experimental\Skybox Shaders\Editor\HorizonWithSunSkyboxInspector.cs" />
     <Compile Include="Assets\droid\Runtime\Shaders\Experimental\Skybox Shaders\Editor\RgbmCubedSkyboxInspector.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\BoundingBoxes\BoundingBox.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\BoundingBoxes\Draw3DBoundingBox.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\BoundingBoxes\DrawScreenSpaceBoundingBox.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\BoundingBoxes\Experimental\BoundingBoxUtilities.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\BoundingBoxes\Experimental\Corners.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\BoundingBoxes\Experimental\DrawBoundingBoxes.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\BoundingBoxes\Experimental\Unused\BoundingBoxUtilities.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\BoundingBoxes\Experimental\VectorSpace.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Enums\Axis.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Enums\BoundingBox\BasedOn.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Enums\BoundingBox\BoundingBoxOrientation.cs" />
@@ -275,14 +265,50 @@
     <Compile Include="Assets\droid\Runtime\Utilities\Enums\FrameFinishes.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Enums\SimulationType.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Enums\WaitOn.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\EventRecipients\DataPoller.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\EventRecipients\InputFieldUpdater.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\EventRecipients\TextUpdater.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\EventRecipients\ToggleUpdater.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\BoundingBoxes\BoundingBox.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\BoundingBoxes\Draw3DBoundingBox.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\BoundingBoxes\DrawScreenSpaceBoundingBox.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\BoundingBoxes\Experimental\BoundingBoxUtilities.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\BoundingBoxes\Experimental\Corners.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\BoundingBoxes\Experimental\DrawBoundingBoxes.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\BoundingBoxes\Experimental\Unused\BoundingBoxUtilities.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\BoundingBoxes\Experimental\VectorSpace.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\ChildSensors\ChildCollider2DSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\ChildSensors\ChildCollider3DSensor.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\ChildSensors\ChildColliderSensor.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\CameraFitter.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\CameraObservationTextureController.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\ConfigurableSampleToggleList.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Experimental\Camera360\CreateStereoCubemaps.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Experimental\DisparityCameraBehaviour.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Experimental\MultiPassCamera.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Experimental\UberCamera.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\FlowCameraBehaviour.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\IgnoreLightSource.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\InfraredLightSource.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\LineProject.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\PostComputeTransform.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\ReplacementShaderEffect.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Segmentation\CategorySegmenter.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Segmentation\MaterialIdSegmenter.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Segmentation\ObjectIdSegmenter.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Segmentation\Obsolete\ChangeMaterialOnRenderByInstance.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Segmentation\Obsolete\ChangeMaterialOnRenderByTag.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Segmentation\Obsolete\ObsoleteSegmenter.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Segmentation\Segmenter.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\SynchroniseCameraProperties.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Synthesis\ColorEncoding.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\NeodroidCamera\Synthesis\SynthesisUtilities.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\Plotting\DrawSpaces.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\Plotting\Meshes.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\Plotting\PlotFunctions.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\Plotting\ValueRangePlotter.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\PrototypingGameObject.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\StatusDisplayer\AutoSetupStatusDisplayer.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\StatusDisplayer\EventRecipients\DataPoller.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\StatusDisplayer\EventRecipients\InputFieldUpdater.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\StatusDisplayer\EventRecipients\TextUpdater.cs" />
+    <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\StatusDisplayer\EventRecipients\ToggleUpdater.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\GameObjects\StatusDisplayer\RenderTextureList.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Misc\DebugPrinting.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Misc\Drawing\ArrowRenderer.cs" />
@@ -306,32 +332,6 @@
     <Compile Include="Assets\droid\Runtime\Utilities\Misc\Procedural\ProceduralCapsule.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Misc\Procedural\SnakeSpaceFilling.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Misc\SearchableEnum\SearchableEnumAttribute.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\CameraFitter.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\CameraObservationTextureController.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\ConfigurableSampleToggleList.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Experimental\Camera360\CreateStereoCubemaps.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Experimental\DisparityCameraBehaviour.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Experimental\MultiPassCamera.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Experimental\UberCamera.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\FlowCameraBehaviour.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\IgnoreLightSource.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\InfraredLightSource.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\LineProject.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\ReplacementShaderEffect.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Segmentation\CategorySegmenter.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Segmentation\MaterialIdSegmenter.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Segmentation\ObjectIdSegmenter.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Segmentation\Obsolete\ChangeMaterialOnRenderByInstance.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Segmentation\Obsolete\ChangeMaterialOnRenderByTag.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Segmentation\Obsolete\ObsoleteSegmenter.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Segmentation\Segmenter.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\SynchroniseCameraProperties.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Synthesis\ColorEncoding.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\NeodroidCamera\Synthesis\SynthesisUtilities.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\Plotting\DrawSpaces.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\Plotting\Meshes.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\Plotting\PlotFunctions.cs" />
-    <Compile Include="Assets\droid\Runtime\Utilities\Plotting\ValueRangePlotter.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Sampling\Distributions.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Sampling\Perlin.cs" />
     <Compile Include="Assets\droid\Runtime\Utilities\Sampling\ProjectileSpammer.cs" />
@@ -371,7 +371,8 @@
     <None Include="Assets\droid\Runtime\Shaders\Spaces\Position\WorldSpace.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Spaces\Model\Tangents.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Experimental\Normal-Diffuse-Offset.shader" />
-    <None Include="Assets\droid\Runtime\Shaders\Experimental\NewComputeShader.compute" />
+    <None Include="Assets\droid\Runtime\Shaders\Compute\Gamma.compute" />
+    <None Include="Assets\droid\Runtime\Shaders\Compute\NewComputeShader.compute" />
     <None Include="Assets\droid\Runtime\Shaders\Skybox\CleanRoomSkybox.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Segmentation\Individual\MaterialIdSegmentation.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Experimental\ValueRangePlotter.shader" />
@@ -408,6 +409,7 @@
     <None Include="Assets\droid\Runtime\Shaders\Experimental\Skybox Shaders\Horizon With Sun Skybox.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Experimental\StereoEyeIndexColor.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Experimental\Skybox Shaders\RGBM Cubed Skybox.shader" />
+    <None Include="Assets\droid\Runtime\Shaders\Experimental\Gamma.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Experimental\Skybox2CubeBlend.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Experimental\PointCloud.shader" />
     <None Include="Assets\droid\Runtime\Shaders\Experimental\FlatSurfaceShading.shader" />

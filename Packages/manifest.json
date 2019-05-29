@@ -3,6 +3,7 @@
     "com.cnheider.unity-test-package": "https://github.com/cnheider/unity-test-package.git#master",
     "com.unity.animation.rigging": "0.1.4-preview",
     "com.unity.package-manager-ui": "2.1.2",
+    "com.unity.postprocessing": "2.1.4",
     "com.unity.probuilder": "4.0.3",
     "com.unity.progrids": "3.0.3-preview.4",
     "com.unity.textmeshpro": "2.0.0",
