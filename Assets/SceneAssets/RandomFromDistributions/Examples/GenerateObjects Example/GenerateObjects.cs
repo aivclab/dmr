@@ -1,6 +1,6 @@
 // C# example:
 
-using droid.Runtime.Utilities.Sampling;
+using droid.Runtime.Sampling;
 using UnityEngine;
 
 namespace RandomFromDistributions.Examples.GenerateObjects_Example {
@@ -26,15 +26,15 @@ namespace RandomFromDistributions.Examples.GenerateObjects_Example {
 		public GameObject Generate () {
 
 			// Create objects grouped by "Generated Objects" GameObject.
-			GameObject parent_object = new GameObject("Generated Objects");
+			var parent_object = new GameObject("Generated Objects");
 
 			// Create the object under same parent as this script.
 			parent_object.transform.parent = this.gameObject.transform.parent;
 
 
 			// Create the objects with randomized position and scale.
-			for (int i = 0; i <= this.count; ++i) {
-				GameObject instantiated_obj = Instantiate(this.object_to_instantiate);
+			for (var i = 0; i <= this.count; ++i) {
+				var instantiated_obj = Instantiate(this.object_to_instantiate);
 
 				instantiated_obj.transform.position = new Vector3(Random.Range(-this.pos_range, this.pos_range),
 				                                                  Random.Range(-this.pos_range, this.pos_range),

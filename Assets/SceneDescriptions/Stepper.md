@@ -1,1 +1,1 @@
-"Speed, Frame_dependent_,  - SimpleEnvironmentPrototypingEnvironment, Sensors: 3, Objective: None"
+"Speed, Frame_dependent_,  - SimpleEnvironmentPrototypingEnvironment, Sensors: 5, Objective: None"

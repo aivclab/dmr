@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using droid.Runtime.Utilities.Sampling;
+using droid.Runtime.Sampling;
 using UnityEngine;
 
 namespace RandomFromDistributions.Examples.Monster_Spawner_Example {
@@ -14,14 +14,14 @@ namespace RandomFromDistributions.Examples.Monster_Spawner_Example {
 		// Update is called once per frame
 		void Update () {
 			if (this.currNumMonsters < this.maxNumMonsters) {
-				int index = Distributions.RandomChoiceFollowingDistribution(this.frequencies);
+				var index = Distributions.RandomChoiceFollowingDistribution(this.frequencies);
 
-				GameObject monster = Instantiate(this.monsters[index]);
+				var monster = Instantiate(this.monsters[index]);
 				this.currNumMonsters++;
 
 				// Randomize position
-				float x = Distributions.RandomRangeNormalDistribution(-5,5, Distributions.ConfidenceLevel._90);
-				float y = Distributions.RandomRangeNormalDistribution(-5,5, Distributions.ConfidenceLevel._90);
+				var x = Distributions.RandomRangeNormalDistribution(-5,5, Distributions.ConfidenceLevel._90);
+				var y = Distributions.RandomRangeNormalDistribution(-5,5, Distributions.ConfidenceLevel._90);
 
 				monster.transform.position = new Vector3(x,y,0);
 			}

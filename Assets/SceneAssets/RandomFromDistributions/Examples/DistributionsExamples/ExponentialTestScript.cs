@@ -1,5 +1,5 @@
 
-using droid.Runtime.Utilities.Sampling;
+using droid.Runtime.Sampling;
 
 namespace RandomFromDistributions.Examples.DistributionsExamples {
 	public class ExponentialTestScript : DistributionTestScript {

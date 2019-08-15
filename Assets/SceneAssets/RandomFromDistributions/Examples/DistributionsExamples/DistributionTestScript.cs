@@ -26,25 +26,25 @@ namespace RandomFromDistributions.Examples.DistributionsExamples {
 
 	
 		private GameObject CreateGraph () {
-			int[] buckets = new int[this.max+1 - this.min]; // add one, because RandomRangeNormalDistribution is inclusive.
-			for (int i = 0; i < buckets.Length; ++i) {
+			var buckets = new int[this.max+1 - this.min]; // add one, because RandomRangeNormalDistribution is inclusive.
+			for (var i = 0; i < buckets.Length; ++i) {
 				buckets[i] = 0;
 			}
 		
-			for (int i = 0; i < this.repetitions; ++i) {
-				float bucket = this.GetRandomNumber(this.min, this.max);
+			for (var i = 0; i < this.repetitions; ++i) {
+				var bucket = this.GetRandomNumber(this.min, this.max);
 			
 				buckets[Mathf.RoundToInt(bucket) - this.min] ++;
 			}
 		
 			// Display how many times each bucket was drawn by creating a bunch of dots in the scene. 
-			GameObject graph = new GameObject("Graph");
+			var graph = new GameObject("Graph");
 			graph.transform.parent = this.transform;
 			graph.transform.localPosition = new Vector3(0,0,0);
-			for (int i = this.min; i < this.max; ++i) {
+			for (var i = this.min; i < this.max; ++i) {
 
 				float height = buckets[i- this.min]+1;
-				GameObject new_dot = GameObject.CreatePrimitive(PrimitiveType.Cube);
+				var new_dot = GameObject.CreatePrimitive(PrimitiveType.Cube);
 				new_dot.transform.parent = graph.transform;
 				new_dot.transform.localPosition = new Vector3(i, height/2.0f, 0);
 				new_dot.transform.localScale = new Vector3(1, height, 1);

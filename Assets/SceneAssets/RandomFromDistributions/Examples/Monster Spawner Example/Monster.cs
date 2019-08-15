@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 
 namespace RandomFromDistributions.Examples.Monster_Spawner_Example {
+	/// <summary>
+	///
+	/// </summary>
 	public class Monster : MonoBehaviour {
 
 		float lifetime = 0;
