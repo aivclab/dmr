@@ -295,6 +295,9 @@
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/PackageCache/com.unity.burst@1.1.2/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>

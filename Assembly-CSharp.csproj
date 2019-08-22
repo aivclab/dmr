@@ -73,6 +73,7 @@
     <Compile Include="Assets\SceneAssets\RandomFromDistributions\Examples\GenerateObjects Example\GenerateObjects.cs" />
     <Compile Include="Assets\SceneAssets\RandomFromDistributions\Examples\Monster Spawner Example\Monster.cs" />
     <Compile Include="Assets\SceneAssets\RandomFromDistributions\Examples\Monster Spawner Example\MonsterSpawner.cs" />
+    <Compile Include="Assets\Unity\ConstraintSamples\Scripts\mParent.cs" />
     <None Include="Assets\SceneAssets\RandomFromDistributions\Examples\DistributionsExamples\DistributionsExamples README.txt" />
     <None Include="Assets\SceneAssets\RandomFromDistributions\Readme.txt" />
     <None Include="Assets\droid\Libraries\NetMQ.4.0.0.175-pre\lib\net40\NetMQ.xml" />
@@ -93,11 +94,17 @@
     <Reference Include="Unity.Subsystem.Registration">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.ProGrids">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
@@ -138,6 +145,9 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
@@ -161,6 +171,9 @@
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -374,6 +387,9 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>/home/heider/Projects/Alexandra/Unity/dmr/Library/PackageCache/com.unity.burst@1.1.2/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/home/heider/Unity/Hub/Editor/2019.2.0b9/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
