@@ -1,3 +1,6 @@
 [submodule "Assets/droid"]
 	path = Assets/droid
 	url = https://github.com/sintefneodroid/droid.git
+[submodule "Assets/unity-test-packge"]
+	path = Assets/unity-test-packge
+	url = https://github.com/cnheider/unity-test-package.git
