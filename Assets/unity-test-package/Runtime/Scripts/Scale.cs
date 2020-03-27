@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace unity_test_package.Runtime.Scripts {
+namespace Runtime.Scripts {
   /// <summary>
   ///
   /// </summary>
@@ -25,7 +25,7 @@ namespace unity_test_package.Runtime.Scripts {
     void Update() {
       this._total_time += Time.deltaTime * this.Speed;
       this.transform.localScale =
-          this._base_scale + Mathf.Sin(this._total_time) * this._scalar;
+          this._base_scale + Mathf.Sin(f : this._total_time) * this._scalar;
     }
   }
 }

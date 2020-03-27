@@ -9,7 +9,7 @@ namespace Runtime.Scripts {
     [SerializeField] Vector3 axis = Vector3.up;
 
     void Update() {
-      var rot = Quaternion.AngleAxis(this.angularVelocity * Time.deltaTime, this.axis);
+      var rot = Quaternion.AngleAxis(angle : this.angularVelocity * Time.deltaTime, axis : this.axis);
       this.transform.localRotation *= rot;
     }
   }

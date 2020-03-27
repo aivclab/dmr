@@ -1,6 +1,6 @@
 ﻿using UnityEditor;
 
-namespace unity_test_package.Runtime.Editor
+namespace Editor
 {
     /// <summary>
     ///

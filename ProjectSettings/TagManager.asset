@@ -8,6 +8,9 @@ TagManager:
   - CameraBody
   - Ignored
   - Keypoints
+  - a
+  - b
+  - c
   layers:
   - Default
   - TransparentFX

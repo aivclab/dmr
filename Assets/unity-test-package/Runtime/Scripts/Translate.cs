@@ -26,7 +26,7 @@ namespace Runtime.Scripts {
     void Update() {
       this._total_time += Time.deltaTime * this.Speed;
       this.transform.position =
-          this._base_position + Mathf.Sin(this._total_time) * this._translation;
+          this._base_position + Mathf.Sin(f : this._total_time) * this._translation;
     }
   }
 }
