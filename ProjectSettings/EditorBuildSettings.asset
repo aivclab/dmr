@@ -4,11 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Stepper.unity
-    guid: b9a977f135e69ac25ad066f472084b00
-  - enabled: 1
-    path: Assets/Scenes/handdrill/handdrill.unity
-    guid: ce53b53e6b6c4e4019b9a878ee129e46
-  m_configObjects: {}
+  m_Scenes: []
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3f24c6058cb9579c9a1bf6803e7eb544,
+      type: 2}

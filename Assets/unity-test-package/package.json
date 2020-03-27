@@ -1,0 +1,14 @@
+{
+	"name": "io.github.cnheider.unity-test-package",
+	"displayName": "Unity Test Package",
+	"version": "0.1.2",
+	"unity": "2018.1",
+	"description": "A test package",
+  "keywords": [
+    "unity"
+  ],
+  "category": "Unity",
+	"author": "cnheider <mrnaah@gmail.com> (https://github.com/cnheider)",
+	"dependencies": {
+	}
+}

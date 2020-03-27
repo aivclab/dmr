@@ -4,13 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Obstruction
-  - CameraBody
   - Infrared
-  - New tag
-  - Hub
-  - Vinge
-  - Bjarne7
+  - CameraBody
+  - Ignored
+  - Keypoints
   - a
   - b
   - c
@@ -23,11 +20,11 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - a
-  - b
-  - c
-  - 
+  - Char1
+  - Char2
+  - Char3
+  - SegmentationIgnored
+  - Keypoints
   - 
   - 
   - 

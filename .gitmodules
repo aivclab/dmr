@@ -1,3 +1,15 @@
 [submodule "Assets/droid"]
 	path = Assets/droid
 	url = https://github.com/sintefneodroid/droid.git
+[submodule "Assets/unity-test-packge"]
+	path = Assets/unity-test-packge
+	url = https://github.com/cnheider/unity-test-package.git
+[submodule "Assets/CSM"]
+	path = Assets/CSM
+	url = git@github.com:cnheider/CachedShadowMaps.git
+[submodule "Assets/SabreCSG"]
+	path = Assets/SabreCSG
+	url = git@github.com:sabresaurus/SabreCSG.git
+[submodule "Assets/TAA"]
+	path = Assets/TAA
+	url = git@github.com:cnheider/temporal_fork.git
